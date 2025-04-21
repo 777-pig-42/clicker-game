@@ -28,13 +28,20 @@
     display: flex;
     gap: 12px;
     justify-content: center;
+    flex-direction: column;
 }
-.shop button {
+.shop .container div {
+    margin-top: 40px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+.shop div button {
     border: none;
     border-radius: 5px;
     background-color: lightgray;
     transition: background-color 0.5s ease;
 }
-.shop button:hover {
+.shop div button:hover {
     background-color: lightblue;
 }
